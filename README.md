@@ -1,7 +1,7 @@
 # Client Management Dashboard
 
 ![Project Status](https://img.shields.io/badge/Status-Under%20Development-blue)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 A modern, responsive **Next.js** application designed to efficiently manage client data. This dashboard includes robust features such as pagination, real-time search, and advanced filtering capabilities. It's built with the latest React hooks for state management and styled using **Tailwind CSS** to deliver a clean, intuitive, and highly responsive user experience.
 
@@ -34,36 +34,6 @@ A modern, responsive **Next.js** application designed to efficiently manage clie
 
 ---
 
-## 📁 Project Structure
-
-.
-├── app/
-│   ├── clients/                  # Client management pages
-│   │   ├── ajouter-client/       # Page to add new client
-│   │   │   └── page.tsx
-│   │   └── page.tsx              # Main client list page (with pagination, search, filter)
-│   └── layout.tsx                # Root layout with fixed sidebar and main content
-├── components/
-│   ├── dashboard/
-│   │   └── Sidebar.tsx           # Fixed sidebar component
-│   └── clients/
-│       ├── Pagination.tsx        # Reusable pagination component
-│       ├── SearchBar.tsx         # Reusable search input component
-│       ├── ClientTable.tsx       # Component for displaying client data in a table
-│       └── DeleteConfirmationModal.tsx # Custom modal for delete confirmation
-├── lib/
-│   └── clients.ts                # (Optional) Client data utilities, mock data, or API service
-├── public/                       # Static assets (images, fonts, etc.)
-│   └── ...
-├── styles/
-│   └── globals.css               # Tailwind CSS global styles and directives
-├── tsconfig.json                 # TypeScript configuration
-├── next.config.js                # Next.js configuration
-├── postcss.config.js             # PostCSS configuration for Tailwind
-├── tailwind.config.ts            # Tailwind CSS configuration
-└── package.json                  # Project dependencies and scripts
-
-
 ---
 
 ## 🚀 Getting Started
@@ -81,8 +51,8 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/client-management-dashboard.git](https://github.com/your-username/client-management-dashboard.git)
-    cd client-management-dashboard
+    git clone https://github.com/achrafelhadjaoui/CRM-Nextjs.git
+    cd CRM-Nextjs
     ```
 2.  **Install dependencies:**
     ```bash
